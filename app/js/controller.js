@@ -8,7 +8,7 @@ this.genres=genres;
 });
 
 
-var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'romance' ,'classic','horror', 'humor', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction', 'poetry' ];
+var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'romance' ,'classic','horror', 'history', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction' ];
 
   var books = [
     {
@@ -17,7 +17,7 @@ var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'romance' ,'classic','
       isbn: '0553593714',
       review: 'The most inventive and entertaining fantasy saga of our time—warrants one hell of an introduction. I loved this book!',
       rating: 4,
-      genres: { 'non-fiction': true, fantasy: true }
+      genres: { 'non-fiction': false, 'fantasy': true, 'fiction':true }
     },{
       title: 'Jane Eyre',
       author: 'Charlotte Brontë',
@@ -31,7 +31,7 @@ var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'romance' ,'classic','
       isbn: '0553580531',
       review: 'Awesome book!',
       rating: 4,
-      genres: { fiction: true}
+      genres: { fiction: true, history: true}
     },{
       title: 'Atonement',
       author: 'Ian McEwan',
