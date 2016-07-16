@@ -11,11 +11,11 @@ angular.module('readingList').directive('bookGenres',function(){
 });
 
 
-angular.module('readingList').directive('readingCover', function(){
+angular.module('readingList').directive('bookCover', function(){
 	return {
 		restrict:'E',
-		templateUrl:'partials/book-covers.html'
-
+		templateUrl:'partials/book-covers.html',
+		replace:true
 	}
 
 });
