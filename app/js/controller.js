@@ -4,11 +4,21 @@ angular.module('readingList').controller('ReadingListController',function(){
 
 this.books=books;
 this.genres=genres;
+this.showForm = false;
 
 });
 
+/*
+angular.module('readingList').controller('reviewFormController', function(){
 
-var genres = [ 'fable', 'fantasy', 'fiction', 'folklore', 'romance' ,'classic','horror', 'history', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction' ];
+
+
+
+
+}); */
+
+
+var genres = [  'fantasy', 'fiction', 'folklore', 'romance' ,'classic','horror', 'history', 'legend', 'metafiction', 'mystery', 'mythology', 'non-fiction' ];
 
   var books = [
     {
